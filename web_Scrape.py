@@ -11,11 +11,11 @@ def extract_courses(node, subject=None, level=None):
     """Recursively dig into Children until we hit actual courses."""
     name = node.get("Name")
 
-    # If this looks like a subject (e.g. "ACC - Accounting")
+    # If this looks like a subject for example "MATH" could be  "Mathematics"
     if " - " in (name or "") and not subject:
         subject = name
 
-    # If this looks like a level (100, 200, 300)
+    # If this looks like a level e.g CSCI 310 would be under 300
     if name and name.isdigit():
         level = name
 
@@ -24,7 +24,7 @@ def extract_courses(node, subject=None, level=None):
         for child in node["Children"]:
             extract_courses(child, subject, level)
     else:
-        # Leaf node = actual course (sometimes these have more metadata)
+        # Leaf node = actual course 
         courses.append({
             "Subject": subject,
             "Level": level,
@@ -41,6 +41,6 @@ for child in data["Children"]:
 # Convert to DataFrame
 df = pd.DataFrame(courses)
 
-# Save to CSV
+# Save as CSV
 df.to_csv("fisk_courses_clean.csv", index=False)
 print("Saved:", len(df), "courses")
