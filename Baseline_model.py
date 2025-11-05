@@ -33,6 +33,7 @@ def recommend_courses(course_code, n=5):
     
     # Get similarity scores for all other courses
     sim_scores = list(enumerate(cosine_sim[idx]))
+    print (sim_scores)
     
     # Sort by highest similarity
     sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)

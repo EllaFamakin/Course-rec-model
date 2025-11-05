@@ -12,6 +12,7 @@ major_course_map = {
         "Core": ["CORE 100", "CORE 150", "CORE 160", "CORE 120", "CORE 201", "CORE 260", "CORE 360"],
         "Cognates": ["MATH 120", "MATH 125", "MATH 130", "MATH 240", "NSCI 360"],
         "Major Requirements": ["CSCI 110", "CSCI 120", "CSCI 120L", "CSCI 210", "CSCI 230", "CSCI 241", "CSCI 261", "CSCI 282", "CSCI 291", "CSCI 310", "CSCI 312", "CSCI 411", "CSCI 412"],
+    
     },
     "Data Science": {
         "Core": ["CORE 100", "CORE 150", "CORE 160", "CORE 120", "CORE 201", "CORE 260", "CORE 360"],
