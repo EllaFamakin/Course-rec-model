@@ -78,15 +78,15 @@ for _, student in students.iterrows():
 # PRINT FINAL METRICS
 # ----------------------------
 print("\n===== LEAVE-ONE-OUT EVALUATION =====\n")
-print(f"⭐ Hit Rate @1: {np.mean(results['HR@1']):.3f}")
-print(f"⭐ Hit Rate @3: {np.mean(results['HR@3']):.3f}")
-print(f"⭐ Hit Rate @5: {np.mean(results['HR@5']):.3f}")
+print(f" Hit Rate @1: {np.mean(results['HR@1']):.3f}")
+print(f" Hit Rate @3: {np.mean(results['HR@3']):.3f}")
+print(f" Hit Rate @5: {np.mean(results['HR@5']):.3f}")
 
-print(f"\n⭐ Precision @3: {np.mean(results['P@3']):.3f}")
-print(f"⭐ Precision @5: {np.mean(results['P@5']):.3f}")
+print(f"\n Precision @3: {np.mean(results['P@3']):.3f}")
+print(f" Precision @5: {np.mean(results['P@5']):.3f}")
 
-print(f"\n⭐ Recall @5: {np.mean(results['R@5']):.3f}")
+print(f"\n Recall @5: {np.mean(results['R@5']):.3f}")
 
-print(f"\n⭐ Mean Reciprocal Rank (MRR): {np.mean(results['MRR']):.3f}")
+print(f"\n Mean Reciprocal Rank (MRR): {np.mean(results['MRR']):.3f}")
 
 print("\n=====================================\n")

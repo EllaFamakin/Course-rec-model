@@ -65,7 +65,7 @@ for student_id in recs["Student_ID"].unique():
     if score is not None:
         div_scores.append(score)
 
-print("⭐ Average Diversity Score:", np.mean(div_scores))
+print("Average Diversity Score:", np.mean(div_scores))
 
 
 # --------------- 3. COVERAGE RATE ----------------------------
