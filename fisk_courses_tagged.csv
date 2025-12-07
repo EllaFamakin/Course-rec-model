@@ -131,19 +131,19 @@ CHEM - Chemistry,Chemical Literature,CHEM 450,1,400,,,,,['OTHER'],['General Elec
 CHEM - Chemistry,History and Philosophy of Chemistry,CHEM 457,1,400,,,,,['OTHER'],['General Elective']
 CHEM - Chemistry,Analytical Chemistry,CHEM 470,3,400,CHEM 342,CHEM 470L,,,['OTHER'],['General Elective']
 CHEM - Chemistry,Analytical Chemistry Laboratory,CHEM 470L,1,400,,CHEM 470,,,['OTHER'],['General Elective']
-CORE - Core Curriculum,New Student Orientation,CORE 100,1,100,,,,,"['Computer Science', 'Data Science', 'Mathematics']","['Core', 'Core', 'Core:']"
-CORE - Core Curriculum,Critical Thinking,CORE 120,2,100,,,,,"['Computer Science', 'Data Science', 'Mathematics']","['Core', 'Core', 'Core:']"
+CORE - Core Curriculum,New Student Orientation,CORE 100,1,100,,,,,"['Computer Science', 'Data Science', 'Mathematics']","['Core', 'Core', 'Core']"
+CORE - Core Curriculum,Critical Thinking,CORE 120,2,100,,,,,"['Computer Science', 'Data Science', 'Mathematics']","['Core', 'Core', 'Core']"
 CORE - Core Curriculum,Essential Mathematics for a Contemporary World,CORE 131,3,100,,,,,['OTHER'],['General Elective']
 CORE - Core Curriculum,Essential Mathematics for a Contemporary World II,CORE 132,3,100,,,,,['OTHER'],['General Elective']
 CORE - Core Curriculum,African American Heritage,CORE 140,3,100,,,,,['OTHER'],['General Elective']
-CORE - Core Curriculum,Composition I,CORE 150,3,100,,,,,"['Computer Science', 'Data Science', 'Mathematics']","['Core', 'Core', 'Core:']"
-CORE - Core Curriculum,Composition II,CORE 160,3,100,CORE 150,,,,"['Computer Science', 'Data Science', 'Mathematics']","['Core', 'Core', 'Core:']"
-CORE - Core Curriculum,Introduction to Business and Entrepreneurship,CORE 201,3,200,CORE 160,,,,"['Computer Science', 'Data Science', 'Mathematics']","['Core', 'Core', 'Core:']"
+CORE - Core Curriculum,Composition I,CORE 150,3,100,,,,,"['Computer Science', 'Data Science', 'Mathematics']","['Core', 'Core', 'Core']"
+CORE - Core Curriculum,Composition II,CORE 160,3,100,CORE 150,,,,"['Computer Science', 'Data Science', 'Mathematics']","['Core', 'Core', 'Core']"
+CORE - Core Curriculum,Introduction to Business and Entrepreneurship,CORE 201,3,200,CORE 160,,,,"['Computer Science', 'Data Science', 'Mathematics']","['Core', 'Core', 'Core']"
 CORE - Core Curriculum,Introduction to Social Justice,CORE 210,3,200,,,,,['OTHER'],['General Elective']
 CORE - Core Curriculum,The Creative Arts,CORE 220,3,200,,,,,['OTHER'],['General Elective']
 CORE - Core Curriculum,Natural Science ,CORE 240,3,200,CORE 131,,,,['OTHER'],['General Elective']
-CORE - Core Curriculum,Humanities,CORE 260,3,200,CORE 160,,,,"['Computer Science', 'Data Science', 'Mathematics']","['Core', 'Core', 'Core:']"
-CORE - Core Curriculum,The World and its Peoples,CORE 360,3,300,CORE 260,,,,"['Computer Science', 'Data Science', 'Mathematics']","['Core', 'Core', 'Core:']"
+CORE - Core Curriculum,Humanities,CORE 260,3,200,CORE 160,,,,"['Computer Science', 'Data Science', 'Mathematics']","['Core', 'Core', 'Core']"
+CORE - Core Curriculum,The World and its Peoples,CORE 360,3,300,CORE 260,,,,"['Computer Science', 'Data Science', 'Mathematics']","['Core', 'Core', 'Core']"
 CRJ - Criminal Justice,Introduction to Criminal Justice,CRJ 200,3,200,,,,,['OTHER'],['General Elective']
 CRJ - Criminal Justice,Police and Society,CRJ 210,3,200,CRJ 200,,,,['OTHER'],['General Elective']
 CRJ - Criminal Justice,Corrections,CRJ 220,3,200,CRJ 200,,,,['OTHER'],['General Elective']
@@ -159,7 +159,7 @@ CSCI - Computer Science,Introduction to Computing,CSCI 100,3,100,,,,,['OTHER'],[
 CSCI - Computer Science,Introduction to Computer Science I,CSCI 110,3,100,MATH 110,CSCI 110L,,,"['Computer Science', 'Data Science', 'Mathematics']","['Major Requirements', 'CS Requirements', 'Cognates']"
 CSCI - Computer Science,Introduction to Computer Science I Laboratory,CSCI 110L,1,100,,CSCI 110,,,"['Computer Science', 'Data Science', 'Mathematics']","['Major Requirements', 'CS Requirements', 'Cognates']"
 CSCI - Computer Science,Introduction to Computer Science II,CSCI 120,3,100,CSCI 110,CSCI 120L,,,"['Computer Science', 'Data Science', 'Mathematics']","['Major Requirements', 'CS Requirements', 'Cognates']"
-CSCI - Computer Science,Introduction to Computer Science II Laboratory,CSCI 120L,1,100,,CSCI 120,,,"['Computer Science', 'Data Science', 'Mathematics']","['Major Requirements', 'CS Requirements', 'Cognates']"
+CSCI - Computer Science,Introduction to Computer Science II Laboratory,CSCI 120L,1,100,,CSCI 120,,,"['Computer Science', 'Computer Science', 'Data Science', 'Mathematics']","['Major Requirements', 'Major Requirements', 'CS Requirements', 'Cognates']"
 CSCI - Computer Science,Sophomore Seminar,CSCI 210,3,200,,,,,"['Computer Science', 'Data Science']","['Major Requirements', 'CS Requirements']"
 CSCI - Computer Science,Introduction to Computer Architecture,CSCI 230,3,200,CSCI 120,CSCI 230L,,,['Computer Science'],['Major Requirements']
 CSCI - Computer Science,Introduction to Computer Architecture Laboratory,CSCI 230L,1,200,,CSCI 230,,,['Computer Science'],['Major Requirements']
